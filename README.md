@@ -18,5 +18,5 @@ Third phase:
 - User manual
 
 
-The prototype shows page navigation, the types of users that exist in the system (administrators, students, professors, parents) and some basic system functionalities such as review of grades, review of class schedules, etc.
+The prototype shows page navigation, types of users that exist in the system (administrators, students, professors, parents) and some basic system functionalities such as review of grades, review of class schedules, etc.
 
