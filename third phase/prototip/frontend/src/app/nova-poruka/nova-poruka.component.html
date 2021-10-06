@@ -1,0 +1,15 @@
+<div class="glass">
+    <div class="title">
+        Nova poruka
+    </div>
+    <div class="select">
+        <label>Za korisnika</label>
+        <select name="to" id="to" [(ngModel)]='kome'>
+            <option value="{{korisnik.username}}" *ngFor='let korisnik of korisnici'>{{korisnik.ime}} {{korisnik.prezime}}-{{korisnik.username}}</option>
+        </select>
+    </div>
+    <div class="send-message" *ngIf='kome'>
+        <textarea rows="3" cols="80" placeholder="Unesite tekst poruke ovde..." name="text" [(ngModel)]='tekstPoruke'></textarea>
+        <button class="send" (click)='posalji()'><i class="fa fa-send-o"></i></button>
+    </div>
+</div>

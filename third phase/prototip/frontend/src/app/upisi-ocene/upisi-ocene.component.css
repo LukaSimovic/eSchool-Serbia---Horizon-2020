@@ -1,0 +1,169 @@
+nav{
+    width: 15%;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 0 10px 10px 0;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.6);
+}
+nav ul {
+    position: relative;
+    list-style-type: none;
+}
+nav ul li a{
+    display: flex;
+    align-items: center;
+    font-size: 1.15em;
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    height: 50px;
+    transition: all 0.5s ease;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    background: rgba(0, 0, 0, 0.6);
+}
+nav ul ul{
+    position: absolute;
+    left:100%;
+    top: 0;
+    width: 250px;
+    display: none;
+    background: rgba(44,83,100,1);
+    border-radius: 0 10px 10px 0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+nav ul .dropdown span {
+    position: absolute;
+    right: 20px;
+}
+nav ul .dropdown img {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+#icon-setting,
+#icon-logout,
+#icon-req,
+#icon-home,
+#icon-reg,
+#icon-re,
+#icon-pencil{
+    margin-right: 10px;
+}
+nav ul .dropdown{
+    position: relative;
+
+}
+nav ul .dropdown:hover ul{
+    display: initial;
+}
+.container{
+    background: rgb(58,69,101);
+    position: absolute;
+    left: 15%;
+    top: 0%;
+    bottom: 0%;
+    right: 0;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    text-align: center;
+}
+
+.container .glass{
+    background: linear-gradient(45deg, rgba(255,255,255,0.4),rgba(255,255,255,0.3));
+    padding: 10px;
+    border-radius: 5px;
+}
+.container .glass .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .glass .top select{
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgba(255,255,255,0.3);
+    transition: all 0.4s ease;
+}
+.container .glass .top select:hover,
+.container .glass .top select:focus{
+    background: white;
+}
+.container .glass .top label{
+    color: black;
+    padding: 5px;
+}
+.container .glass .grades{
+    padding: 5px;
+    border-radius: 5px;
+}
+.container .glass .grades table{
+    padding: 10px;
+}
+
+.container .glass .grades table tr td{
+    padding: 25px;
+    color: black;
+}
+
+.container .glass .grades table tr .t-title{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.3);
+}
+.container .glass .grades table tr .name{
+    font-weight: 600;
+}
+.container .glass .grades table select{
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.4);
+    margin-right: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.container .glass .grades table select:hover,
+.container .glass .grades table select:focus{
+    background: white;
+}
+.container .glass .grades table button{
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    background: rgb(2, 47, 114);
+    color: white;
+}
+.final{
+    color: rgb(109, 4, 4);
+    font-weight: 600;
+}
+.all-grades{
+    background: rgba(255,255,255,0.3);
+    padding: 5px;
+    border-radius: 5px;
+}
+.message-box{
+    background: seagreen;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.message-box i{
+    margin-right: 5px;
+}

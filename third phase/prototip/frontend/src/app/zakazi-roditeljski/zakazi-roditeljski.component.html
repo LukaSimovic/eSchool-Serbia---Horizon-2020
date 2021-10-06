@@ -1,0 +1,90 @@
+<div class='container'>
+    <div *ngIf='ulogovaniKorisnik.razredni=="0"'>
+        Niste razredni nijednom odeljenju, nemate mogućnost zakazivanja roditeljskog sastanka!
+    </div>
+    <div *ngIf='ulogovaniKorisnik.razredni!="0" && postojiRoditeljski'>
+        Već ste zakazali roditeljski sastanak!
+    </div>
+    <div *ngIf='ulogovaniKorisnik.razredni!="0" && !postojiRoditeljski'>
+        <table>
+            <tr>
+                <td colspan="2" class="title"><label>Zakazite roditeljski sastanak za odeljenje {{ulogovaniKorisnik.razredni}}</label></td>
+            </tr>
+            <tr>
+                <td>Izaberite datum</td>
+                <td><input type="date" name='datum' [(ngModel)]='datum'><br></td>
+            </tr>
+            <tr>
+                <td>
+                    Izaberite vreme 
+                </td>
+                <td>
+                    <select name='sati' [(ngModel)]='sat'>
+                        <option value=10>10</option>
+                        <option value=11>11</option>
+                        <option value=12>12</option>
+                        <option value=13>13</option>
+                        <option value=14>14</option>
+                        <option value=15>15</option>
+                        <option value=16>16</option>
+                        <option value=17>17</option>
+                        <option value=18>18</option>
+                        <option value=19>19</option>
+                        <option value=20>20</option>
+                        <option value=21>21</option>
+                    </select><label class="time">:</label><select name='minut' [(ngModel)]='minut'>
+                        <option value=00>00</option>
+                        <option value=05>05</option>
+                        <option value=10>10</option>
+                        <option value=15>15</option>
+                        <option value=20>20</option>
+                        <option value=25>25</option>
+                        <option value=30>30</option>
+                        <option value=35>35</option>
+                        <option value=40>40</option>
+                        <option value=45>45</option>
+                        <option value=50>50</option>
+                        <option value=55>55</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Broj učionice</td>
+                <td>
+                    <input type="text" name='mesto' [(ngModel)]='mesto'>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button (click)='zakazi()'><i class="fa fa-calendar" aria-hidden="true"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="message-box" *ngIf='message || messageDone'>
+                        <label class='error' *ngIf='message'><i class="fa fa-exclamation-circle" aria-hidden="true"></i> {{message}}</label>
+                        <label class="done" *ngIf='messageDone'><i class="fa fa-exclamation-circle" aria-hidden="true"></i> {{messageDone}}</label>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<nav>
+    <ul>
+        <li><a routerLink='/nastavnik'><i class="fa fa-home" aria-hidden="true" id="icon-home"></i><label>Početna </label></a></li>
+        <li><a routerLink='/inbox'><i class="fa fa-envelope" aria-hidden="true" id="icon-req"></i> <label>Inbox</label></a></li>
+        <li><a routerLink='/upisiOcene'><i class="fa fa-file-text-o" id="icon-pencil"></i><label>Upisi ocene</label></a></li>
+        <li><a routerLink='/nastavnik'><i class="fa fa-graduation-cap" aria-hidden="true" id="icon-pencil"></i><label>Zakazi test</label></a></li>
+        <li><a routerLink='/zakaziRoditeljski'><i class="fa fa-calendar" aria-hidden="true" id="icon-pencil"></i><label>Zakazi roditeljski</label></a>
+        <li><a routerLink='/nastavnik'><i class='fas fa-chalkboard-teacher' id="icon-pencil"></i><label>Predavanja</label></a>
+            <li><a routerLink='/dnevnik'><i class="fas fa-address-book" id="icon-pencil"></i><label>Dnevnik</label></a>
+        <li class="dropdown"><a><img src="{{slika}}" alt="" height="30px" width="30px"> <label>{{ulogovaniKorisnik.ime}}<span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/profil'> <i class="fa fa-cog" aria-hidden="true" id="icon-setting"></i> Podešavanja</a></li>
+                <li><a (click)='odjaviSe()'><i class="fa fa-sign-out" aria-hidden="true" id="icon-logout"></i> Odjavi se</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>

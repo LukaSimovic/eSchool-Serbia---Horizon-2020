@@ -1,0 +1,64 @@
+<div class="container">
+    <br>
+    <table>
+        <tr>
+            <th>Naziv predmeta</th>
+            <th>Ocene</th>
+            <th>Zakljucna ocena</th>
+        </tr>
+        <tr *ngFor='let o of spisak_ocena'>
+            <td>{{o.naziv}}</td>
+            <td class="cvalue">{{o.ocene}}</td>
+            <td style="color:red; font-weight: 600;text-align: center;">{{o.zakljucna_ocena}}</td>
+        </tr>
+    </table>
+</div>
+<nav *ngIf='ulogovaniKorisnik.tip=="učenik"'>
+    <ul>
+        <li><a routerLink='/ucenik'><i class="fa fa-home" aria-hidden="true" id="icon-home"></i><label>Početna </label></a></li>
+        <li><a routerLink='/inbox' (click)='inboxpage()'><i class="fa fa-envelope" aria-hidden="true" id="icon-req"></i> <label>Inbox</label></a></li>
+        <li><a routerLink='/ocene/{{ulogovaniKorisnik.username}}'><i class="fa fa-graduation-cap" aria-hidden="true" id="icon-pencil"></i><label>Ocene</label></a></li>
+        <li><a routerLink='/raspored'><i class="fa fa-calendar" aria-hidden="true" id="icon-pencil"></i><label>Moj raspored</label></a>
+            <li><a routerLink='/ucenik'><i class="fa fa-file-text-o" id="icon-pencil"></i><label>Testovi</label></a>
+        <li class="dropdown"><a><img src="{{slika}}" alt="" height="30px" width="30px"> <label>{{ulogovaniKorisnik.ime}}<span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/profil'> <i class="fa fa-cog" aria-hidden="true" id="icon-setting"></i> Podešavanja</a></li>
+                <li><a (click)='odjaviSe()'><i class="fa fa-sign-out" aria-hidden="true" id="icon-logout"></i> Odjavi se</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<nav *ngIf='ulogovaniKorisnik.tip=="roditelj"'>
+    <ul>
+        <li><a routerLink='/roditelj'><i class="fa fa-home" aria-hidden="true" id="icon-home"></i><label>Početna </label></a></li>
+        <li><a routerLink='/inbox'><i class="fa fa-envelope" aria-hidden="true" id="icon-req"></i> <label>Inbox</label></a></li>
+        <li><a routerLink='/ocene/{{ulogovaniKorisnik.un_deteta}}'><i class="fa fa-graduation-cap" aria-hidden="true" id="icon-pencil"></i><label>Ocene deteta</label></a></li>
+        <li><a routerLink='/raspored'><i class="fa fa-calendar" aria-hidden="true" id="icon-pencil"></i><label>Raspored deteta</label></a>
+        <li><a routerLink='/prikazRoditeljskih'><i class="fa fa-group" id="icon-pencil"></i><label>Roditeljski sastanci</label></a>
+        <li class="dropdown"><a><img src="{{slika}}" alt="" height="30px" width="30px"> <label>{{ulogovaniKorisnik.ime}}<span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/profil'> <i class="fa fa-cog" aria-hidden="true" id="icon-setting"></i> Podešavanja</a></li>
+                <li><a (click)='odjaviSe()'><i class="fa fa-sign-out" aria-hidden="true" id="icon-logout"></i> Odjavi se</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<nav *ngIf='ulogovaniKorisnik.tip=="nastavnik"'>
+    <ul>
+        <li><a routerLink='/nastavnik'><i class="fa fa-home" aria-hidden="true" id="icon-home"></i><label>Početna </label></a></li>
+        <li><a routerLink='/inbox'><i class="fa fa-envelope" aria-hidden="true" id="icon-req"></i> <label>Inbox</label></a></li>
+        <li><a routerLink='/upisiOcene'><i class="fa fa-file-text-o" id="icon-pencil"></i><label>Upisi ocene</label></a></li>
+        <li><a routerLink='/nastavnik'><i class="fa fa-graduation-cap" aria-hidden="true" id="icon-pencil"></i><label>Zakazi test</label></a></li>
+        <li><a routerLink='/zakaziRoditeljski'><i class="fa fa-calendar" aria-hidden="true" id="icon-pencil"></i><label>Zakazi roditeljski</label></a>
+        <li><a routerLink='/nastavnik'><i class='fas fa-chalkboard-teacher' id="icon-pencil"></i><label>Predavanja</label></a>
+            <li><a routerLink='/dnevnik'><i class="fas fa-address-book" id="icon-pencil"></i><label>Dnevnik</label></a>
+        <li class="dropdown"><a><img src="{{slika}}" alt="" height="30px" width="30px"> <label>{{ulogovaniKorisnik.ime}}<span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/profil'> <i class="fa fa-cog" aria-hidden="true" id="icon-setting"></i> Podešavanja</a></li>
+                <li><a (click)='odjaviSe()'><i class="fa fa-sign-out" aria-hidden="true" id="icon-logout"></i> Odjavi se</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>

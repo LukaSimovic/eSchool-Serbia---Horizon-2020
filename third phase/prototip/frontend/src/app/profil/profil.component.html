@@ -1,0 +1,148 @@
+<div class="container">
+    <div class="glass">
+        <div class="image">
+            <input accept="image/*" (change)='onSelectFile($event)' type="file" id="imageUpload">
+            <label for="imageUpload"> <img src="{{slika}}" height="200px" width="200px"></label>
+        </div>
+        <table>
+            <tr>
+                <td><input type="checkbox" name="ime" id="ime" [(ngModel)]='promeniImeBoolean'><label for="ime">Ime</label></td>
+                <td *ngIf='promeniImeBoolean'> <input type="text" name="ime" id="ime_unos" class="input" [(ngModel)]='ime'></td>
+                <td *ngIf='!promeniImeBoolean'><input type="text" name="ime" id="ime_pregled" class="view" disabled [(ngModel)]='ime'></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="prezime" id="prezime" [(ngModel)]='promeniPrezimeBoolean'><label for="prezime">Prezime</label></td>
+                <td *ngIf='promeniPrezimeBoolean'><input type="text" name="ime" id="ime_unos" class="input" [(ngModel)]='prezime'></td>
+                <td *ngIf='!promeniPrezimeBoolean'><input type="text" name="ime" id="ime_pregled" class="view" disabled [(ngModel)]='prezime'></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="username" id="username" [(ngModel)]='promeniUsernameBoolean'><label for="username">Korisničko ime</label></td>
+                <td *ngIf='promeniUsernameBoolean'><input type="text" name="ime" id="ime_unos" class="input" [(ngModel)]='username'></td>
+                <td *ngIf='!promeniUsernameBoolean'><input type="text" name="ime" id="prezime_pregled" class="view" disabled [(ngModel)]='username'></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="email" id="email" [(ngModel)]='promeniEmailBoolean'><label for="email">E-mail</label></td>
+                <td *ngIf='promeniEmailBoolean'><input type="text" name="ime" id="ime_unos"class="input" [(ngModel)]='email'></td>
+                <td *ngIf='!promeniEmailBoolean'><input type="text" name="ime" id="ime_pregled" class="view" disabled [(ngModel)]='email'></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="mesto" id="mesto" [(ngModel)]='promeniMestoBoolean'><label for="mesto">Mesto</label></td>
+                <td *ngIf='promeniMestoBoolean'><input type="text" name="ime" id="ime_unos" class="input" [(ngModel)]='mesto'></td>
+                <td *ngIf='!promeniMestoBoolean'><input type="text" name="ime" id="ime_pregled" class="view" disabled [(ngModel)]='mesto'></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="drzava" id="drzava" [(ngModel)]='promeniDrzavuBoolean'><label for="drzava">Država</label></td>
+                <td *ngIf='promeniDrzavuBoolean'><input type="text" name="ime" id="ime_unos" class="input" [(ngModel)]='drzava'></td>
+                <td *ngIf='!promeniDrzavuBoolean'><input type="text" name="ime" id="ime_pregled" class="view" disabled [(ngModel)]='drzava'></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="password">
+                    <label (click)='promeniLozinku()'>Promeni lozinku</label>
+                </td>
+            </tr>
+            <tr *ngIf='promeniLozinkuBoolean'>
+                <td>Stara lozinka</td>
+                <td> <input type="password" name="pass" id="pass" class="input" [(ngModel)]='lozinkaStara'></td>
+            </tr>
+            <tr *ngIf='promeniLozinkuBoolean'>
+                <td>Nova lozinka</td>
+                <td> <input type="password" name="pass" id="pass" class="input" [(ngModel)]='novaLozinka'></td>
+            </tr>
+            <tr *ngIf='promeniLozinkuBoolean'>
+                <td>Potvrda lozinke</td>
+                <td> <input type="password" name="pass" id="pass" class="input" [(ngModel)]='potvrdaLozinke'></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="password">
+                    <label (click)='izmeni()'>Potvrdi izmene</label>
+                </td>
+            </tr>
+        </table>
+       <div class="help"  *ngIf='poruka'>
+        <div class="error-box">
+            <div class="icon">
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            </div>
+            <div class="message">
+                {{poruka}}
+            </div>
+        </div>
+       </div>
+    </div>
+</div>
+<nav *ngIf='ulogovaniKorisnik.tip=="admin"'>
+    <ul>
+        <li><a routerLink='/admin'><i class="fa fa-home" aria-hidden="true" id="icon-home"></i><label>Početna </label></a></li>
+        <li><a routerLink='/zahtevi'><i class="fas fa-user-clock" aria-hidden="true" id="icon-req"></i> <label> Zahtevi</label></a></li>
+        <li class="dropdown"><a><i class="fa fa-plus" aria-hidden="true" id="icon-reg"></i> <label> Registracija <span>&rsaquo;</span></label></a>
+            <ul>
+                <li><a>Korisnici</a></li>
+                <li><a>Škola</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a><i class="fas fa-edit" id="icon-setting"></i> <label>Upravljanje <span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/upravljanjeNast'>Nastavnici</a></li>
+                <li><a routerLink='/upravljanjeUcen'> Učenici</a></li>
+            </ul>
+        </li>
+        <li><a><i class="fa fa-pencil" aria-hidden="true" id="icon-pencil"></i><label>Korisnici</label></a>
+        </li>
+      
+        <li class="dropdown"><a><img src="{{slika}}" alt="" height="30px" width="30px"> <label>{{ulogovaniKorisnik.ime}} <span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/profil'> <i class="fa fa-cog" aria-hidden="true" id="icon-setting"></i> Podešavanja</a></li>
+                <li><a (click)='odjaviSe()'><i class="fa fa-sign-out" aria-hidden="true" id="icon-logout"></i> Odjavi se</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<nav *ngIf='ulogovaniKorisnik.tip=="učenik"'>
+    <ul>
+        <li><a routerLink='/ucenik'><i class="fa fa-home" aria-hidden="true" id="icon-home"></i><label>Početna </label></a></li>
+        <li><a routerLink='/inbox' (click)='inboxpage()'><i class="fa fa-envelope" aria-hidden="true" id="icon-req"></i> <label>Inbox</label></a></li>
+        <li><a routerLink='/ocene/{{ulogovaniKorisnik.username}}'><i class="fa fa-graduation-cap" aria-hidden="true" id="icon-pencil"></i><label>Ocene</label></a></li>
+        <li><a routerLink='/raspored'><i class="fa fa-calendar" aria-hidden="true" id="icon-pencil"></i><label>Moj raspored</label></a>
+        <li><a routerLink='/ucenik'><i class="fa fa-file-text-o" id="icon-pencil"></i><label>Testovi</label></a>
+        <li class="dropdown"><a><img src="{{slika}}" alt="" height="30px" width="30px"> <label>{{ulogovaniKorisnik.ime}}<span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/profil'> <i class="fa fa-cog" aria-hidden="true" id="icon-setting"></i> Podešavanja</a></li>
+                <li><a (click)='odjaviSe()'><i class="fa fa-sign-out" aria-hidden="true" id="icon-logout"></i> Odjavi se</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<nav *ngIf='ulogovaniKorisnik.tip=="roditelj"'>
+    <ul>
+        <li><a routerLink='/roditelj'><i class="fa fa-home" aria-hidden="true" id="icon-home"></i><label>Početna </label></a></li>
+        <li><a routerLink='/inbox'><i class="fa fa-envelope" aria-hidden="true" id="icon-req"></i> <label>Inbox</label></a></li>
+        <li><a routerLink='/ocene/{{ulogovaniKorisnik.un_deteta}}'><i class="fa fa-graduation-cap" aria-hidden="true" id="icon-pencil"></i><label>Ocene deteta</label></a></li>
+        <li><a routerLink='/raspored'><i class="fa fa-calendar" aria-hidden="true" id="icon-pencil"></i><label>Raspored deteta</label></a>
+        <li><a routerLink='/prikazRoditeljskih'><i class="fa fa-group" id="icon-pencil"></i><label>Roditeljski sastanci</label></a>
+        <li class="dropdown"><a><img src="{{slika}}" alt="" height="30px" width="30px"> <label>{{ulogovaniKorisnik.ime}}<span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/profil'> <i class="fa fa-cog" aria-hidden="true" id="icon-setting"></i> Podešavanja</a></li>
+                <li><a (click)='odjaviSe()'><i class="fa fa-sign-out" aria-hidden="true" id="icon-logout"></i> Odjavi se</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<nav  *ngIf='ulogovaniKorisnik.tip=="nastavnik"'>
+    <ul>
+        <li><a routerLink='/nastavnik'><i class="fa fa-home" aria-hidden="true" id="icon-home"></i><label>Početna </label></a></li>
+        <li><a routerLink='/inbox'><i class="fa fa-envelope" aria-hidden="true" id="icon-req"></i> <label>Inbox</label></a></li>
+        <li><a routerLink='/upisiOcene'><i class="fa fa-file-text-o" id="icon-pencil"></i><label>Upisi ocene</label></a></li>
+        <li><a routerLink='/nastavnik'><i class="fa fa-graduation-cap" aria-hidden="true" id="icon-pencil"></i><label>Zakazi test</label></a></li>
+        <li><a routerLink='/zakaziRoditeljski'><i class="fa fa-calendar" aria-hidden="true" id="icon-pencil"></i><label>Zakazi roditeljski</label></a>
+        <li><a routerLink='/nastavnik'><i class='fas fa-chalkboard-teacher' id="icon-pencil"></i><label>Predavanja</label></a>
+            <li><a routerLink='/dnevnik'><i class="fas fa-address-book" id="icon-pencil"></i><label>Dnevnik</label></a>
+        <li class="dropdown"><a><img src="{{slika}}" alt="" height="30px" width="30px"> <label>{{ulogovaniKorisnik.ime}}<span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/profil'> <i class="fa fa-cog" aria-hidden="true" id="icon-setting"></i> Podešavanja</a></li>
+                <li><a (click)='odjaviSe()'><i class="fa fa-sign-out" aria-hidden="true" id="icon-logout"></i> Odjavi se</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>

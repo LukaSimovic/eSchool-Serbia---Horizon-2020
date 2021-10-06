@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="info">
+        <img src="{{slika}}" height="45px" width="45px"> 
+        <label>{{imePrezime}}</label>
+    </div>
+    <div class="see-messages">
+        <div *ngFor='let poruka of poruke;let i=index' [class.my-message]='mojaPoruka[i]==true' [class.not-my-message]='mojaPoruka[i]!=true'>
+            <div [class.container-my-message]='mojaPoruka[i]==true' [class.container-not-my-message]='mojaPoruka[i]!=true'>
+                <div class="message-box">
+                    <div class="message-text">
+                        {{poruka.tekst}}
+                    </div>
+                    <div class="message-time">
+                        <div class="time">
+                            {{vreme[i]}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="input-new">
+        <textarea rows="3" cols="150" placeholder="Unesite tekst poruke ovde..." name="text" [(ngModel)]='tekstPoruke'></textarea>
+        <button class="send" (click)='posalji()'><i class="fa fa-send-o"></i></button>
+    </div>
+</div>

@@ -1,0 +1,94 @@
+
+<div class="container">
+    <div class="teachers" *ngIf='pokaziNZ'>
+        <div class="title">
+            <label>
+             Nastavnici - zahtevi
+            </label>
+         </div>
+         <div class="gallery" *ngFor='let korisnik of nastavnici'>
+            <a target="_blank" href="img_5terre.jpg">
+              <img src="{{slika}}" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">
+               <table>
+                   <tr>
+                       {{korisnik.ime}} {{korisnik.prezime}}
+                   </tr>
+                   <tr>
+                    {{korisnik.skola}}
+                </tr>
+                <tr>
+                    {{korisnik.username}}
+                </tr>
+                <tr>
+                    {{korisnik.email}}
+                </tr>
+               </table>
+            </div>
+            <div class="buttons">
+                <button class="accept" (click)='prihvati(korisnik.username)'><i class="fa fa-check" aria-hidden="true"></i></button>
+                <button class="refuse" (click)='odbij(korisnik.username)'><i class="fa fa-times" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="students" *ngIf='pokaziUZ'>
+        <div class="title">
+            <label>
+             Učenici - zahtevi
+            </label>
+         </div>
+         <div class="gallery" *ngFor='let korisnik of ucenici'>
+             <a target="_blank" href="img_5terre.jpg">
+               <img src="{{slika}}" alt="Cinque Terre" width="600" height="400">
+             </a>
+             <div class="desc">
+                <table>
+                    <tr>
+                        {{korisnik.ime}} {{korisnik.prezime}}
+                    </tr>
+                    <tr>
+                     {{korisnik.skola}}, {{korisnik.odeljenje}}
+                 </tr>
+                 <tr>
+                     {{korisnik.username}}
+                 </tr>
+                 <tr>
+                     {{korisnik.email}}
+                 </tr>
+                </table>
+             </div>
+             <div class="buttons">
+                <button class="accept" (click)='prihvati(korisnik.username)'><i class="fa fa-check" aria-hidden="true"></i></button>
+                <button class="refuse" (click)='odbij(korisnik.username)'><i class="fa fa-times" aria-hidden="true"></i></button>
+            </div>
+           </div>
+    </div>
+</div>
+<nav >
+    <ul>
+        <li><a routerLink='/admin'><i class="fa fa-home" aria-hidden="true" id="icon-home"></i><label>Početna </label></a></li>
+        <li><a routerLink='/zahtevi'><i class="fas fa-user-clock" aria-hidden="true" id="icon-req"></i> <label> Zahtevi</label></a></li>
+        <li class="dropdown"><a><i class="fa fa-plus" aria-hidden="true" id="icon-reg"></i> <label> Registracija <span>&rsaquo;</span></label></a>
+            <ul>
+                <li><a>Korisnici</a></li>
+                <li><a>Škola</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a><i class="fas fa-edit" id="icon-setting"></i> <label>Upravljanje <span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/upravljanjeNast'>Nastavnici</a></li>
+                <li><a routerLink='/upravljanjeUcen'> Učenici</a></li>
+            </ul>
+        </li>
+        <li><a><i class="fa fa-pencil" aria-hidden="true" id="icon-pencil"></i><label>Korisnici</label></a>
+        </li>
+      
+        <li class="dropdown"><a><img src="{{slika}}" alt="" height="30px" width="30px"> <label>{{ulogovaniKorisnik.ime}} <span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/profil'> <i class="fa fa-cog" aria-hidden="true" id="icon-setting"></i> Podešavanja</a></li>
+                <li><a (click)='odjaviSe()'><i class="fa fa-sign-out" aria-hidden="true" id="icon-logout"></i> Odjavi se</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>

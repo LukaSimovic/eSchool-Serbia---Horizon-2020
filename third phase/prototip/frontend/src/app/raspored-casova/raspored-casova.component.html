@@ -1,0 +1,100 @@
+<div class="container">
+    <div class="title"><label>Raspored za odeljenje {{odeljenje}} škole {{ime_skole}} </label></div>
+    <table>
+        <tr>
+            <th> </th>
+            <th>Ponedeljak</th>
+            <th>Utorak</th>
+            <th>Sreda</th>
+            <th>Četvrtak</th>
+            <th>Petak</th>
+        </tr>
+        <tr>
+            <td>1. </td>
+            <td>{{prviCasovi[0]}}</td>
+            <td>{{prviCasovi[1]}}</td>
+            <td>{{prviCasovi[2]}}</td>
+            <td>{{prviCasovi[3]}}</td>
+            <td>{{prviCasovi[4]}}</td>
+        </tr>
+        <tr>
+            <td>2. </td>
+            <td>{{drugiCasovi[0]}}</td>
+            <td>{{drugiCasovi[1]}}</td>
+            <td>{{drugiCasovi[2]}}</td>
+            <td>{{drugiCasovi[3]}}</td>
+            <td>{{drugiCasovi[4]}}</td>
+        </tr>
+        <tr>
+            <td>3. </td>
+            <td>{{treciCasovi[0]}}</td>
+            <td>{{treciCasovi[1]}}</td>
+            <td>{{treciCasovi[2]}}</td>
+            <td>{{treciCasovi[3]}}</td>
+            <td>{{treciCasovi[4]}}</td>
+        </tr>
+        <tr>
+            <td>4. </td>
+            <td>{{cetvrtiCasovi[0]}}</td>
+            <td>{{cetvrtiCasovi[1]}}</td>
+            <td>{{cetvrtiCasovi[2]}}</td>
+            <td>{{cetvrtiCasovi[3]}}</td>
+            <td>{{cetvrtiCasovi[4]}}</td>
+        </tr>
+        <tr>
+            <td>5. </td>
+            <td>{{petiCasovi[0]}}</td>
+            <td>{{petiCasovi[1]}}</td>
+            <td>{{petiCasovi[2]}}</td>
+            <td>{{petiCasovi[3]}}</td>
+            <td>{{petiCasovi[4]}}</td>
+        </tr>
+        <tr>
+            <td>6. </td>
+            <td>{{sestiCasovi[0]}}</td>
+            <td>{{sestiCasovi[1]}}</td>
+            <td>{{sestiCasovi[2]}}</td>
+            <td>{{sestiCasovi[3]}}</td>
+            <td>{{sestiCasovi[4]}}</td>
+        </tr>
+        <tr>
+            <td>7. </td>
+            <td>{{sedmiCasovi[0]}}</td>
+            <td>{{sedmiCasovi[1]}}</td>
+            <td>{{sedmiCasovi[2]}}</td>
+            <td>{{sedmiCasovi[3]}}</td>
+            <td>{{sedmiCasovi[4]}}</td>
+        </tr>
+    </table>
+</div>
+<nav *ngIf='ulogovaniKorisnik.tip=="učenik"'>
+    <ul>
+        <li><a routerLink='/ucenik'><i class="fa fa-home" aria-hidden="true" id="icon-home"></i><label>Početna </label></a></li>
+        <li><a routerLink='/inbox'  (click)='inboxpage()'><i class="fa fa-envelope" aria-hidden="true" id="icon-req"></i> <label>Inbox</label></a></li>
+        <li><a routerLink='/ocene/{{ulogovaniKorisnik.username}}'><i class="fa fa-graduation-cap" aria-hidden="true" id="icon-pencil"></i><label>Ocene</label></a></li>
+        <li><a routerLink='/raspored'><i class="fa fa-calendar" aria-hidden="true" id="icon-pencil"></i><label>Moj raspored</label></a>
+        <li><a routerLink='/ucenik'><i class="fa fa-file-text-o" id="icon-pencil"></i><label>Testovi</label></a>
+        <li class="dropdown"><a><img src="{{slika}}" alt="" height="30px" width="30px"> <label>{{ulogovaniKorisnik.ime}}<span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/profil'> <i class="fa fa-cog" aria-hidden="true" id="icon-setting"></i> Podešavanja</a></li>
+                <li><a (click)='odjaviSe()'><i class="fa fa-sign-out" aria-hidden="true" id="icon-logout"></i> Odjavi se</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<nav *ngIf='ulogovaniKorisnik.tip=="roditelj"'>
+    <ul>
+        <li><a routerLink='/roditelj'><i class="fa fa-home" aria-hidden="true" id="icon-home"></i><label>Početna </label></a></li>
+        <li><a routerLink='/inbox'><i class="fa fa-envelope" aria-hidden="true" id="icon-req"></i> <label>Inbox</label></a></li>
+        <li><a routerLink='/ocene/{{ulogovaniKorisnik.un_deteta}}'><i class="fa fa-graduation-cap" aria-hidden="true" id="icon-pencil"></i><label>Ocene deteta</label></a></li>
+        <li><a routerLink='/raspored'><i class="fa fa-calendar" aria-hidden="true" id="icon-pencil"></i><label>Raspored deteta</label></a>
+        <li><a routerLink='/prikazRoditeljskih'><i class="fa fa-group" id="icon-pencil"></i><label>Roditeljski sastanci</label></a>
+        <li class="dropdown"><a><img src="{{slika}}" alt="" height="30px" width="30px"> <label>{{ulogovaniKorisnik.ime}}<span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/profil'> <i class="fa fa-cog" aria-hidden="true" id="icon-setting"></i> Podešavanja</a></li>
+                <li><a (click)='odjaviSe()'><i class="fa fa-sign-out" aria-hidden="true" id="icon-logout"></i> Odjavi se</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>

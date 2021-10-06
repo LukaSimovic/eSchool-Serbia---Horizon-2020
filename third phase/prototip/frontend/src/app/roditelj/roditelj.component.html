@@ -1,0 +1,15 @@
+<nav>
+    <ul>
+        <li><a routerLink='/roditelj'><i class="fa fa-home" aria-hidden="true" id="icon-home"></i><label>Početna </label></a></li>
+        <li><a routerLink='/inbox'><i class="fa fa-envelope" aria-hidden="true" id="icon-req"></i> <label>Inbox</label></a></li>
+        <li><a routerLink='/ocene/{{ulogovaniKorisnik.un_deteta}}'><i class="fa fa-graduation-cap" aria-hidden="true" id="icon-pencil"></i><label>Ocene deteta</label></a></li>
+        <li><a routerLink='/raspored'><i class="fa fa-calendar" aria-hidden="true" id="icon-pencil"></i><label>Raspored deteta</label></a>
+        <li><a routerLink='/prikazRoditeljskih'><i class="fa fa-group" id="icon-pencil"></i><label>Roditeljski sastanci</label></a>
+        <li class="dropdown"><a><img src="{{slika}}" alt="" height="30px" width="30px"> <label>{{ulogovaniKorisnik.ime}}<span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/profil'> <i class="fa fa-cog" aria-hidden="true" id="icon-setting"></i> Podešavanja</a></li>
+                <li><a (click)='odjaviSe()'><i class="fa fa-sign-out" aria-hidden="true" id="icon-logout"></i> Odjavi se</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>

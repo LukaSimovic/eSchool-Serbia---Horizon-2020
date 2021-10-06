@@ -1,0 +1,39 @@
+<div class="home">
+    <button (click)='pocetna()'><i class="fa fa-home" aria-hidden="true"></i> Početna</button>
+</div>
+<div class="login">
+    <div class="glass">
+        <div class="title"><label>Prijava</label></div>
+        <div class="container">
+            <div class="username">
+                <input type="text" name="username" placeholder="korisničko ime" [(ngModel)]='username'>
+            </div>
+            <div class="password">
+                <input type="password" name="password" placeholder="lozinka" [(ngModel)]='lozinka'>
+            </div>
+            <div class="type">
+                <div class="lbl-type">Tip</div>
+                <select name="type" [(ngModel)]='tip'>
+                    <option value="admin">Administrator</option>
+                    <option value="nastavnik">Nastavnik</option>
+                    <option value="učenik">Učenik</option>
+                    <option value="roditelj">Roditelj</option>
+                </select>
+            </div>
+            <div class="registration">
+                <label>Nemate nalog? Registrujte se!</label>
+            </div>
+            <div class="btn-login">
+                <button (click)='prijava()'>prijavi se</button>
+            </div>  
+            <div class="error-box" *ngIf='message'>
+                <div class="icon">
+                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                </div>
+                <div class="message">
+                    {{message}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

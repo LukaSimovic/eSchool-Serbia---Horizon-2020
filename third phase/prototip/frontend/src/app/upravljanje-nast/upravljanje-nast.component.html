@@ -1,0 +1,66 @@
+<div class='container'>
+    <div class="glass">
+        <table>
+            <tr>
+                <td class="ctitle">Nastavnik</td>
+                <td class="ctitle">Skola</td>
+                <td class="ctitle">Predmeti</td>
+                <td class="ctitle">Dodaj predmet</td>
+                <td class="ctitle">Razredni</td>
+                <td class="ctitle">Dodeli odeljenje</td>
+            </tr>
+            <tr *ngFor='let n of sviNastavnici'>
+                <td class="cvalue">{{n.ime}} {{n.prezime}}</td>
+                <td>{{n.skola}}</td>
+                <td>{{n.predmeti}}</td>
+                <td>
+                    <select name='predmet' [(ngModel)]='predmet'>
+                        <option *ngFor='let p of n.sviPredmetiUSkoli'>{{p}}</option>
+                    </select><button (click)='dodajPredmet(n.username)'>Dodaj</button>
+                </td>
+                <td>
+                    <div *ngIf='n.razredni=="0"'>NE</div>
+                    <div *ngIf='n.razredni!="0"'>{{n.razredni}}</div>
+                </td>
+                <td *ngIf='n.razredni=="0"'>
+                    <select name='odeljenje' [(ngModel)]='odeljenje'>
+                        <option *ngFor='let o of n.svaOdeljenjaUSkoli'>{{o}}</option>
+                    </select><button (click)='dodeli(n.username)'>Dodeli</button>
+                </td>
+            </tr>
+        </table>
+        <div class="message-box" *ngIf='message'>
+            <label><i class="fas fa-exclamation-circle"></i>{{message}}</label>
+        </div>
+    </div>
+
+</div>
+
+
+<nav >
+    <ul>
+        <li><a routerLink='/admin'><i class="fa fa-home" aria-hidden="true" id="icon-home"></i><label>Početna </label></a></li>
+        <li><a routerLink='/zahtevi'><i class="fas fa-user-clock" aria-hidden="true" id="icon-req"></i> <label> Zahtevi</label></a></li>
+        <li class="dropdown"><a><i class="fa fa-plus" aria-hidden="true" id="icon-reg"></i> <label> Registracija <span>&rsaquo;</span></label></a>
+            <ul>
+                <li><a>Korisnici</a></li>
+                <li><a>Škola</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a><i class="fas fa-edit" id="icon-setting"></i> <label>Upravljanje <span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/upravljanjeNast'>Nastavnici</a></li>
+                <li><a routerLink='/upravljanjeUcen'> Učenici</a></li>
+            </ul>
+        </li>
+        <li><a><i class="fa fa-pencil" aria-hidden="true" id="icon-pencil"></i><label>Korisnici</label></a>
+        </li>
+      
+        <li class="dropdown"><a><img src="{{slika}}" alt="" height="30px" width="30px"> <label>{{ulogovaniKorisnik.ime}} <span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/profil'> <i class="fa fa-cog" aria-hidden="true" id="icon-setting"></i> Podešavanja</a></li>
+                <li><a (click)='odjaviSe()'><i class="fa fa-sign-out" aria-hidden="true" id="icon-logout"></i> Odjavi se</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>

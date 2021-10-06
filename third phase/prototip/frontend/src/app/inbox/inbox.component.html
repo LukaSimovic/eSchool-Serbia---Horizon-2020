@@ -1,0 +1,83 @@
+<div class="container">
+   <div class="conversations">
+    <div class="new-message">
+        <button (click)='posaljiNovuPoruku()'><i class="fa fa-plus" aria-hidden="true"></i>Nova poruka</button>
+    </div>
+    <div class="chats">
+        <div class="chat" *ngFor='let k of konverzacije;let i=index' (click)='prikaziKonverzaciju(k.id,prikazImePrezime[i],prikazSlika[i])'>
+            <div class="icon">
+                <img src="{{prikazSlika[i]}}" height="40px" width="40px">
+            </div>
+            <div class="items">
+                <div class="name">{{prikazImePrezime[i]}}</div>
+                <div class="text">{{prikazPoslednjaPoruka[i]}}</div>
+                <div class="time">{{prikazVremePoslednjePoruke[i]}}</div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div class="view">
+    <div class="default" *ngIf='default'>
+        <div class="icon"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></div>
+        <div class="title"><label>Vaše poruke</label></div>
+        <div class="some-text"><label> Šaljite privatne poruke nastavnicima koji vam predaju ili drugim učenicima vašeg odeljenja</label></div>
+        <button (click)='posaljiNovuPoruku()'>Pošaljite poruku</button>
+    </div>
+    <div *ngIf='razmena' class="razmena">
+        <app-poruke></app-poruke>
+    </div>
+    <div *ngIf='novaPoruka' class="razmena">
+        <app-nova-poruka></app-nova-poruka>
+    </div>
+   </div>
+</div>
+
+<nav *ngIf='ulogovaniKorisnik.tip=="učenik"'>
+    <ul>
+        <li><a routerLink='/ucenik'><i class="fa fa-home" aria-hidden="true" id="icon-home"></i><label>Početna </label></a></li>
+        <li><a routerLink='/inbox'><i class="fa fa-envelope" aria-hidden="true" id="icon-req"></i> <label>Inbox</label></a></li>
+        <li><a routerLink='/ocene/{{ulogovaniKorisnik.username}}'><i class="fa fa-graduation-cap" aria-hidden="true" id="icon-pencil"></i><label>Ocene</label></a></li>
+        <li><a routerLink='/raspored'><i class="fa fa-calendar" aria-hidden="true" id="icon-pencil"></i><label>Moj raspored</label></a>
+        <li><a routerLink='/ucenik'><i class="fa fa-file-text-o" id="icon-pencil"></i><label>Testovi</label></a>
+        <li class="dropdown"><a><img src="{{slika}}" alt="" height="30px" width="30px"> <label>{{ulogovaniKorisnik.ime}}<span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/profil'> <i class="fa fa-cog" aria-hidden="true" id="icon-setting"></i> Podešavanja</a></li>
+                <li><a (click)='odjaviSe()'><i class="fa fa-sign-out" aria-hidden="true" id="icon-logout"></i> Odjavi se</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<nav *ngIf='ulogovaniKorisnik.tip=="roditelj"'>
+    <ul>
+        <li><a routerLink='/roditelj'><i class="fa fa-home" aria-hidden="true" id="icon-home"></i><label>Početna </label></a></li>
+        <li><a routerLink='/inbox'><i class="fa fa-envelope" aria-hidden="true" id="icon-req"></i> <label>Inbox</label></a></li>
+        <li><a routerLink='/ocene/{{ulogovaniKorisnik.un_deteta}}'><i class="fa fa-graduation-cap" aria-hidden="true" id="icon-pencil"></i><label>Ocene deteta</label></a></li>
+        <li><a routerLink='/raspored'><i class="fa fa-calendar" aria-hidden="true" id="icon-pencil"></i><label>Raspored deteta</label></a>
+        <li><a routerLink='/prikazRoditeljskih'><i class="fa fa-group" id="icon-pencil"></i><label>Roditeljski sastanci</label></a>
+        <li class="dropdown"><a><img src="{{slika}}" alt="" height="30px" width="30px"> <label>{{ulogovaniKorisnik.ime}}<span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/profil'> <i class="fa fa-cog" aria-hidden="true" id="icon-setting"></i> Podešavanja</a></li>
+                <li><a (click)='odjaviSe()'><i class="fa fa-sign-out" aria-hidden="true" id="icon-logout"></i> Odjavi se</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<nav  *ngIf='ulogovaniKorisnik.tip=="nastavnik"'>
+    <ul>
+        <li><a routerLink='/nastavnik'><i class="fa fa-home" aria-hidden="true" id="icon-home"></i><label>Početna </label></a></li>
+        <li><a routerLink='/inbox'><i class="fa fa-envelope" aria-hidden="true" id="icon-req"></i> <label>Inbox</label></a></li>
+        <li><a routerLink='/upisiOcene'><i class="fa fa-file-text-o" id="icon-pencil"></i><label>Upisi ocene</label></a></li>
+        <li><a routerLink='/nastavnik'><i class="fa fa-graduation-cap" aria-hidden="true" id="icon-pencil"></i><label>Zakazi test</label></a></li>
+        <li><a routerLink='/zakaziRoditeljski'><i class="fa fa-calendar" aria-hidden="true" id="icon-pencil"></i><label>Zakazi roditeljski</label></a>
+        <li><a routerLink='/nastavnik'><i class='fas fa-chalkboard-teacher' id="icon-pencil"></i><label>Predavanja</label></a>
+            <li><a routerLink='/dnevnik'><i class="fas fa-address-book" id="icon-pencil"></i><label>Dnevnik</label></a>
+        <li class="dropdown"><a><img src="{{slika}}" alt="" height="30px" width="30px"> <label>{{ulogovaniKorisnik.ime}}<span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/profil'> <i class="fa fa-cog" aria-hidden="true" id="icon-setting"></i> Podešavanja</a></li>
+                <li><a (click)='odjaviSe()'><i class="fa fa-sign-out" aria-hidden="true" id="icon-logout"></i> Odjavi se</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>

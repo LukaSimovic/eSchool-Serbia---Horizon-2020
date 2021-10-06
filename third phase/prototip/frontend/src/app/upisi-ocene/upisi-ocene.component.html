@@ -1,0 +1,72 @@
+<div class='container'>
+    <div class="glass">
+        <div class="top">
+            <label>Izaberi predmet</label>
+            <select name='predmet' [(ngModel)]='predmet' (change)='izaberiPr()'>
+                <option *ngFor='let p of mojiPredmeti'>{{p}}</option>
+            </select>
+        </div>
+        <div *ngIf='izabranPredmet==1' class="top">
+            <label>Izaberi odeljenje</label>
+            <select  name='odeljenje' [(ngModel)]='odeljenje' (change)='izaberiOd()'>
+                <option>I-8</option>
+            </select>
+        </div>
+        <div *ngIf='izabranoOdeljenje==1' class="grades">
+            <table>
+                <tr>
+                    <td class="t-title">Učenik</td>
+                    <td class="t-title">Ocene</td>
+                    <td class="t-title">Upiši ocenu</td>
+                    <td class="t-title">Zaključna ocena</td>
+                    <td class="t-title">Zaključi ocenu</td>
+                </tr>
+                <tr *ngFor='let u of ucenici'>
+                    <td class="name">{{u.ime}} {{u.prezime}}</td>
+                    <td><label class="all-grades">{{u.spisak_ocena[indexPredmeta].ocene}}</label></td>
+                    <td>
+                        <select name='ocena' [(ngModel)]='ocena'>
+                            <option value=1>1</option>
+                            <option value=2>2</option>
+                            <option value=3>3</option>
+                            <option value=4>4</option>
+                            <option value=5>5</option>
+                        </select><button (click)='upisi(u.username)'>Upiši</button>
+                    </td>
+                    <td ><label class="final">{{u.spisak_ocena[indexPredmeta].zakljucna_ocena}}</label></td>
+                    <td>
+                        <select name='zakljocena' [(ngModel)]='zakljocena'>
+                            <option value=1>1</option>
+                            <option value=2>2</option>
+                            <option value=3>3</option>
+                            <option value=4>4</option>
+                            <option value=5>5</option>
+                        </select><button (click)='zakljuci(u.username)'>Zaključi</button>
+                    </td>
+                </tr>
+            </table>
+            <div class="message-box" *ngIf='message'>
+                <label><i class="fas fa-check-circle"></i> ocena je uspešno upisana</label>
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+<nav>
+    <ul>
+        <li><a routerLink='/nastavnik'><i class="fa fa-home" aria-hidden="true" id="icon-home"></i><label>Početna </label></a></li>
+        <li><a routerLink='/inbox'><i class="fa fa-envelope" aria-hidden="true" id="icon-req"></i> <label>Inbox</label></a></li>
+        <li><a routerLink='/upisiOcene'><i class="fa fa-file-text-o" id="icon-pencil"></i><label>Upisi ocene</label></a></li>
+        <li><a routerLink='/nastavnik'><i class="fa fa-graduation-cap" aria-hidden="true" id="icon-pencil"></i><label>Zakazi test</label></a></li>
+        <li><a routerLink='/zakaziRoditeljski'><i class="fa fa-calendar" aria-hidden="true" id="icon-pencil"></i><label>Zakazi roditeljski</label></a>
+        <li><a routerLink='/nastavnik'><i class='fas fa-chalkboard-teacher' id="icon-pencil"></i><label>Predavanja</label></a>
+            <li><a routerLink='/dnevnik'><i class="fas fa-address-book" id="icon-pencil"></i><label>Dnevnik</label></a>
+        <li class="dropdown"><a><img src="{{slika}}" alt="" height="30px" width="30px"> <label>{{ulogovaniKorisnik.ime}}<span>&rsaquo;</span></label></a>
+            <ul>
+                <li> <a routerLink='/profil'> <i class="fa fa-cog" aria-hidden="true" id="icon-setting"></i> Podešavanja</a></li>
+                <li><a (click)='odjaviSe()'><i class="fa fa-sign-out" aria-hidden="true" id="icon-logout"></i> Odjavi se</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>

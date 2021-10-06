@@ -1,0 +1,75 @@
+<div class="home">
+    <button (click)='pocetna()'><i class="fa fa-home" aria-hidden="true"></i> Početna</button>
+</div>
+<div class="signup">
+    <div class="glass">
+        <div class="title">
+            <label>Registracija</label>
+            <label class="small" *ngIf='tip'> ({{tip}}) </label>
+        </div>
+        <div class="select-type">
+            <label>Tip korisnika</label>
+            <select name="type" [(ngModel)]='tip' (change)="promena()">
+                <option value="nastavnik">Nastavnik</option>
+                <option value="učenik">Učenik</option>
+            </select>
+        </div>
+        <div class="container" *ngIf='tip'>
+            <div class="field">
+                <input type="text" name="fname" placeholder="ime" [(ngModel)]='ime'>
+            </div>
+            <div class="field" *ngIf='tip=="učenik"'>
+                <input type="text" name="rname" placeholder="ime jednog roditelja" [(ngModel)]='ime_roditelja'>
+            </div>
+            <div class="field">
+                <input type="text" name="lname" placeholder="prezime" [(ngModel)]='prezime'>
+            </div>
+            <div class="field">
+                <input type="text" name="username" placeholder="korisničko ime" [(ngModel)]='username'>
+            </div>
+            <div class="field">
+                <input type="password" name="password" placeholder="lozinka" [(ngModel)]='lozinka'>
+            </div>
+            <div class="field">
+                <input type="text" name="email" placeholder="email" [(ngModel)]='email'>
+            </div>
+            <div class="field">
+                <input type="text" name="city" placeholder="mesto" [(ngModel)]='mesto'>
+            </div>
+            <div class="field">
+                <input type="text" name="country" placeholder="država" [(ngModel)]='drzava'>
+            </div>
+            <div class="school">
+                <label>Škola</label>
+                <select name="type" [(ngModel)]='skola' (change)='unosOdeljenja()'>
+                    <option *ngFor='let skola of skole' value="{{skola.ime}}">{{skola.ime}}</option>
+                </select>
+            </div>
+            <div class="department" *ngIf="skola && tip=='učenik'">
+                <label>Odeljenje</label>
+                <select name="type" [(ngModel)]='odeljenje'>
+                    <option *ngFor='let o of odeljenja' value="{{o}}">{{o}}</option>
+                </select>
+            </div>
+            <div class="btn-reg">
+                <button (click)='registracija()'> Registruj se</button>
+            </div>
+            <div class="error-box" *ngIf='message'>
+                <div class="icon">
+                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                </div>
+                <div class="message">
+                    {{message}}
+                </div>
+            </div>
+            <div class="success-box" *ngIf='messageSuccess'>
+                <div class="icon">
+                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                </div>
+                <div class="messageSuccess">
+                    {{messageSuccess}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

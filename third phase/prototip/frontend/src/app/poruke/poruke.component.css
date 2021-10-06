@@ -1,0 +1,132 @@
+.container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 26.35%;
+    right: 0;
+    background: linear-gradient(45deg,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.container .see-messages{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 80%;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.5);
+    overflow: auto;
+}
+.container .input-new{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(4, 89, 247, 0.2);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.see-messages::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+}
+  
+.see-messages::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+}
+
+.see-messages::-webkit-scrollbar-thumb:hover{
+    background: rgba(128, 128, 128, 0.568);
+    border-radius: 20px; 
+}
+
+.container .input-new button{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: rgba(0, 95, 204, 0.774);
+    color: white;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.container .input-new button:hover{
+    background: rgba(0, 95, 204, 0.3);
+}
+.my-message{
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5px;
+    padding: 10px;
+}
+.container-my-message{
+    width: 50%;
+    background: rgb(40, 109, 199);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.not-my-message{
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px;
+    padding: 10px;
+}
+.container-not-my-message{
+    width: 50%;
+    background:rebeccapurple;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.container .info{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.container .info img{
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.container .info label{
+    font-size: 20px;
+    font-weight: 600;
+}
+textarea{
+    background: rgba(255, 255, 255, 0.3);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.4s ease;
+}
+textarea:hover,
+textarea:focus{
+    background: white;
+}
+.message-time{
+    display: flex;
+    justify-content: flex-end;
+}
+.message-time .time{
+    width:30%;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}

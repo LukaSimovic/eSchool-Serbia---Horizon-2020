@@ -1,0 +1,139 @@
+/* 1 */
+{
+    "_id" : ObjectId("60ead3e7b444326195f9c45e"),
+    "poruke" : [ 
+        {
+            "idPoruke" : 1,
+            "tekst" : "Zdravo Aco zeleo bih da te pitam nesto u vezi sa jednim zadatkom iz OET-a!",
+            "poslao" : "mare123",
+            "datum" : "27.6.2021 11:54:54"
+        }, 
+        {
+            "idPoruke" : 2,
+            "tekst" : "Naravno slobodno pitaj sve sto ti nije jasno!",
+            "poslao" : "aca123",
+            "datum" : "28.6.2021 7:30:51"
+        }, 
+        {
+            "idPoruke" : 3,
+            "tekst" : "Zadatak koji me buni je 35. iz zbirke!",
+            "poslao" : "mare123",
+            "datum" : "28.6.2021 12:45:53"
+        }, 
+        {
+            "id" : 4,
+            "poslao" : "mare123",
+            "datum" : "9.7.2021 9:24:11",
+            "tekst" : "Da li mozda znas u koliko sati nam je cas iz istorije?"
+        }, 
+        {
+            "id" : 5,
+            "poslao" : "mare123",
+            "datum" : "9.7.2021 13:14:27",
+            "tekst" : "Hvala na odgovoru!"
+        }, 
+        {
+            "id" : 6,
+            "poslao" : "mare123",
+            "datum" : "9.7.2021 13:14:59",
+            "tekst" : "Bas si dobar drug..."
+        }, 
+        {
+            "id" : 7,
+            "poslao" : "mare123",
+            "datum" : "9.7.2021 13:15:49",
+            "tekst" : "Mnogo si me razocarao Aleksandre"
+        }, 
+        {
+            "id" : 8,
+            "poslao" : "mare123",
+            "datum" : "9.7.2021 17:16:31",
+            "tekst" : "E moj Aco..."
+        }
+    ],
+    "osoba1" : "mare123",
+    "osoba2" : "aca123",
+    "neprocitano_osoba1" : 1,
+    "neprocitano_osoba2" : 0,
+    "id" : 1
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("60ead3e7b444326195f9c461"),
+    "poruke" : [ 
+        {
+            "idPoruke" : 1,
+            "tekst" : "Cao Kosta, sta radis?",
+            "poslao" : "mare123",
+            "datum" : "27.6.2021 11:54:54"
+        }, 
+        {
+            "idPoruke" : 2,
+            "tekst" : "Nista brate, odmaram malo, ti?",
+            "poslao" : "kole123",
+            "datum" : "28.6.2021 7:30:51"
+        }, 
+        {
+            "id" : 3,
+            "poslao" : "mare123",
+            "datum" : "9.7.2021 11:24:33",
+            "tekst" : "Kada cemo poceti matematiku da spremamo?"
+        }, 
+        {
+            "id" : 4,
+            "poslao" : "mare123",
+            "datum" : "9.7.2021 17:16:13",
+            "tekst" : "Nikad a?"
+        }
+    ],
+    "osoba1" : "kole123",
+    "osoba2" : "mare123",
+    "neprocitano_osoba1" : 1,
+    "neprocitano_osoba2" : 0,
+    "id" : 2
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("60ead3e7b444326195f9c464"),
+    "poruke" : [ 
+        {
+            "idPoruke" : 1,
+            "datum" : "9.7.2021 17:16:0",
+            "poslao" : "mare123",
+            "tekst" : "Dobar dan razredna!"
+        }, 
+        {
+            "id" : 2,
+            "poslao" : "mare123",
+            "datum" : "10.7.2021 12:7:23",
+            "tekst" : "Kada imamo pismeni zadatak iz matematike?"
+        }
+    ],
+    "id" : 3,
+    "osoba1" : "mare123",
+    "osoba2" : "viki123",
+    "neprocitano_osoba1" : 1,
+    "neprocitano_osoba2" : 0,
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("60ead3e7b444326195f9c467"),
+    "poruke" : [ 
+        {
+            "idPoruke" : 1,
+            "datum" : "10.7.2021 12:17:57",
+            "poslao" : "mare123",
+            "tekst" : "Cao mama kako si?"
+        }
+    ],
+    "id" : 4,
+    "osoba1" : "mare123",
+    "osoba2" : "jasmina3986",
+    "neprocitano_osoba1" : 1,
+    "neprocitano_osoba2" : 0,
+    "__v" : 0
+}

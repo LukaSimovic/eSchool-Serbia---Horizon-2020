@@ -1,0 +1,634 @@
+/* 1 */
+{
+    "_id" : ObjectId("60ddf678cc8dda210493619e"),
+    "ime" : "Luka",
+    "prezime" : "Simovic",
+    "username" : "simke123",
+    "lozinka" : "Luka@123",
+    "email" : "luka@gmail.com",
+    "slika" : "noImage.png",
+    "tip" : "admin",
+    "accepted" : 1
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("60ddf678cc8dda21049361a1"),
+    "ime" : "Miroslav",
+    "prezime" : "Mirkovic",
+    "username" : "mire123",
+    "lozinka" : "Miroslav@123",
+    "email" : "miroslav@gmail.com",
+    "slika" : "noImage.png",
+    "tip" : "admin",
+    "accepted" : 1
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("60e59b77b28e342818d7a381"),
+    "spisak_ocena" : [ 
+        {
+            "naziv" : "Matematika",
+            "ocene" : [ 
+                5, 
+                3, 
+                4, 
+                5
+            ],
+            "zakljucna_ocena" : "4"
+        }, 
+        {
+            "naziv" : "Srpski jezik i knjizevnost",
+            "ocene" : [ 
+                4, 
+                5, 
+                4
+            ]
+        }, 
+        {
+            "naziv" : "Fizicko vaspitanje",
+            "ocene" : [ 
+                5, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Engleski jezik",
+            "ocene" : [ 
+                4, 
+                4, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Prakticna nastava",
+            "ocene" : [ 
+                5, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Racunarska grafika i multimedija",
+            "ocene" : [ 
+                3, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Istorija",
+            "ocene" : [ 
+                5, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Hemija",
+            "ocene" : [ 
+                5, 
+                4
+            ]
+        }, 
+        {
+            "naziv" : "Geografija",
+            "ocene" : [ 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Fizika",
+            "ocene" : [ 
+                4, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Osnove elektrotehnike",
+            "ocene" : [ 
+                3, 
+                5, 
+                3
+            ]
+        }, 
+        {
+            "naziv" : "Informatika i racunarstvo",
+            "ocene" : [ 
+                3, 
+                5, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Programiranje",
+            "ocene" : [ 
+                5, 
+                5, 
+                4
+            ]
+        }, 
+        {
+            "naziv" : "Vladanje",
+            "ocene" : [ 
+                5
+            ]
+        }
+    ],
+    "tip" : "učenik",
+    "ime" : "Marko",
+    "un_roditelja" : "jasmina3986",
+    "prezime" : "Mitrovic",
+    "username" : "mare123",
+    "lozinka" : "Marko@123",
+    "email" : "marko@gmail.com",
+    "slika" : "mare.jpg",
+    "mesto" : "Beograd",
+    "drzava" : "Srbija",
+    "accepted" : 1,
+    "skola" : "Elektrotehnička škola Nikola Tesla",
+    "odeljenje" : "I-8",
+    "__v" : 0,
+    "spisak_ocena[indexPredmeta]" : {
+        "ocene" : [ 
+            "2", 
+            "5"
+        ]
+    },
+    "str" : [ 
+        "3"
+    ],
+    "spisak_ocena[0]" : {
+        "ocene" : [ 
+            "3"
+        ],
+        "zakljucna_ocena" : "3"
+    }
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("60e59b77b28e342818d7a382"),
+    "spisak_ocena" : [],
+    "tip" : "roditelj",
+    "ime" : "Jasmina",
+    "un_deteta" : "mare123",
+    "prezime" : "Mitrovic",
+    "username" : "jasmina3986",
+    "lozinka" : "Jasmina@12345",
+    "email" : "jasmina3986@gmail.com",
+    "slika" : "noImage.png",
+    "mesto" : "Beograd",
+    "drzava" : "Srbija",
+    "accepted" : 1,
+    "skola" : "Elektrotehnička škola Nikola Tesla",
+    "odeljenje" : "I-8",
+    "__v" : 0
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("60e6bcf5447e1b1e4c88877e"),
+    "spisak_ocena" : [],
+    "predmeti" : [ 
+        "Matematika"
+    ],
+    "tip" : "nastavnik",
+    "ime" : "Violeta",
+    "prezime" : "Komnenovic",
+    "username" : "viki123",
+    "lozinka" : "Viki@123",
+    "email" : "violeta@gmail.com",
+    "slika" : "noImage.png",
+    "mesto" : "Beograd",
+    "drzava" : "Srbija",
+    "accepted" : 1,
+    "skola" : "Elektrotehnička škola Nikola Tesla",
+    "razredni" : "I-8",
+    "__v" : 0
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("60e6bde5447e1b1e4c88877f"),
+    "spisak_ocena" : [],
+    "predmeti" : [],
+    "tip" : "nastavnik",
+    "ime" : "Zeljka",
+    "prezime" : "Golubovic",
+    "username" : "zeljka123",
+    "lozinka" : "Zeljka@123",
+    "email" : "zeljka@gmail.com",
+    "slika" : "noImage.png",
+    "mesto" : "Beograd",
+    "drzava" : "Srbija",
+    "accepted" : 1,
+    "skola" : "Elektrotehnička škola Nikola Tesla",
+    "razredni" : "0",
+    "__v" : 0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("60e6f22faf70e028b4b017aa"),
+    "spisak_ocena" : [ 
+        {
+            "naziv" : "Matematika",
+            "ocene" : [ 
+                5, 
+                5, 
+                3
+            ]
+        }, 
+        {
+            "naziv" : "Srpski jezik i knjizevnost",
+            "ocene" : [ 
+                4, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Fizicko vaspitanje",
+            "ocene" : [ 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Engleski jezik",
+            "ocene" : [ 
+                5, 
+                4
+            ]
+        }, 
+        {
+            "naziv" : "Prakticna nastava",
+            "ocene" : [ 
+                5, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Racunarska grafika i multimedija",
+            "ocene" : [ 
+                2, 
+                5, 
+                4
+            ]
+        }, 
+        {
+            "naziv" : "Istorija",
+            "ocene" : [ 
+                4, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Hemija",
+            "ocene" : [ 
+                3, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Geografija",
+            "ocene" : [ 
+                5, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Fizika",
+            "ocene" : [ 
+                4, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Osnove elektrotehnike",
+            "ocene" : [ 
+                3, 
+                4, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Informatika i racunarstvo",
+            "ocene" : [ 
+                3, 
+                3, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Programiranje",
+            "ocene" : [ 
+                5, 
+                4, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Vladanje",
+            "ocene" : [ 
+                5
+            ]
+        }
+    ],
+    "predmeti" : [],
+    "tip" : "učenik",
+    "ime" : "Aleksandar",
+    "un_roditelja" : "mirko9318",
+    "prezime" : "Radosevic",
+    "username" : "aca123",
+    "lozinka" : "Aleksandar@123",
+    "email" : "aleksandar@gmail.com",
+    "slika" : "aca.png",
+    "mesto" : "Beograd",
+    "drzava" : "Srbija",
+    "accepted" : 1,
+    "skola" : "Elektrotehnička škola Nikola Tesla",
+    "odeljenje" : "I-8",
+    "__v" : 0
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("60e6f22faf70e028b4b017ab"),
+    "spisak_ocena" : [],
+    "predmeti" : [],
+    "tip" : "roditelj",
+    "ime" : "Mirko",
+    "un_deteta" : "aca123",
+    "prezime" : "Radosevic",
+    "username" : "mirko9318",
+    "lozinka" : "Mirko@12345",
+    "email" : "mirko9318@gmail.com",
+    "slika" : "noImage.png",
+    "mesto" : "Beograd",
+    "drzava" : "Srbija",
+    "accepted" : 1,
+    "skola" : "Elektrotehnička škola Nikola Tesla",
+    "odeljenje" : "I-8",
+    "__v" : 0
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("60e6f2dfaf70e028b4b017ac"),
+    "spisak_ocena" : [ 
+        {
+            "naziv" : "Matematika",
+            "ocene" : [ 
+                5, 
+                5, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Srpski jezik i knjizevnost",
+            "ocene" : [ 
+                5, 
+                5, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Fizicko vaspitanje",
+            "ocene" : [ 
+                5, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Engleski jezik",
+            "ocene" : [ 
+                5, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Prakticna nastava",
+            "ocene" : [ 
+                5, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Racunarska grafika i multimedija",
+            "ocene" : [ 
+                4, 
+                5, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Istorija",
+            "ocene" : [ 
+                5, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Hemija",
+            "ocene" : [ 
+                5, 
+                4
+            ]
+        }, 
+        {
+            "naziv" : "Geografija",
+            "ocene" : [ 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Fizika",
+            "ocene" : [ 
+                4, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Osnove elektrotehnike",
+            "ocene" : [ 
+                5, 
+                4, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Informatika i racunarstvo",
+            "ocene" : [ 
+                4, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Programiranje",
+            "ocene" : [ 
+                5, 
+                5, 
+                5
+            ]
+        }, 
+        {
+            "naziv" : "Vladanje",
+            "ocene" : [ 
+                4
+            ]
+        }
+    ],
+    "predmeti" : [],
+    "tip" : "učenik",
+    "ime" : "Kosta",
+    "un_roditelja" : "petrasin8616",
+    "prezime" : "Matijevic",
+    "username" : "kole123",
+    "lozinka" : "Kosta@123",
+    "email" : "kosta@gmail.com",
+    "slika" : "noImage.png",
+    "mesto" : "Beograd",
+    "drzava" : "Srbija",
+    "accepted" : 1,
+    "skola" : "Elektrotehnička škola Nikola Tesla",
+    "odeljenje" : "I-8",
+    "__v" : 0
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("60e6f2dfaf70e028b4b017ad"),
+    "spisak_ocena" : [],
+    "predmeti" : [],
+    "tip" : "roditelj",
+    "ime" : "Petrasin",
+    "un_deteta" : "kole123",
+    "prezime" : "Matijevic",
+    "username" : "petrasin8616",
+    "lozinka" : "Petrasin@12345",
+    "email" : "petrasin8616@gmail.com",
+    "slika" : "noImage.png",
+    "mesto" : "Beograd",
+    "drzava" : "Srbija",
+    "accepted" : 1,
+    "skola" : "Elektrotehnička škola Nikola Tesla",
+    "odeljenje" : "I-8",
+    "__v" : 0
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("60ead9fe439cf50aacfccd4f"),
+    "spisak_ocena" : [],
+    "predmeti" : [],
+    "tip" : "nastavnik",
+    "ime" : "Miroslav",
+    "prezime" : "Cimesa",
+    "username" : "cimi123",
+    "lozinka" : "Cimi@123",
+    "email" : "cimesa@gmail.com",
+    "slika" : "noImage.png",
+    "mesto" : "Beograd",
+    "drzava" : "Srbija",
+    "accepted" : 0,
+    "skola" : "Elektrotehnička škola Nikola Tesla",
+    "razredni" : "0",
+    "__v" : 0
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("60eadc266171d1201c351fe8"),
+    "spisak_ocena" : [ 
+        {
+            "naziv" : "Matematika",
+            "ocene" : []
+        }, 
+        {
+            "naziv" : "Srpski jezik i knjizevnost",
+            "ocene" : []
+        }, 
+        {
+            "naziv" : "Fizicko vaspitanje",
+            "ocene" : []
+        }, 
+        {
+            "naziv" : "Engleski jezik",
+            "ocene" : []
+        }, 
+        {
+            "naziv" : "Prakticna nastava",
+            "ocene" : []
+        }, 
+        {
+            "naziv" : "Racunarska grafika i multimedija",
+            "ocene" : []
+        }, 
+        {
+            "naziv" : "Istorija",
+            "ocene" : []
+        }, 
+        {
+            "naziv" : "Hemija",
+            "ocene" : []
+        }, 
+        {
+            "naziv" : "Geografija",
+            "ocene" : []
+        }, 
+        {
+            "naziv" : "Fizika",
+            "ocene" : []
+        }, 
+        {
+            "naziv" : "Osnove elektrotehnike",
+            "ocene" : []
+        }, 
+        {
+            "naziv" : "Informatika i racunarstvo",
+            "ocene" : []
+        }, 
+        {
+            "naziv" : "Programiranje",
+            "ocene" : []
+        }, 
+        {
+            "naziv" : "Vladanje",
+            "ocene" : []
+        }
+    ],
+    "predmeti" : [],
+    "tip" : "učenik",
+    "ime" : "Bojan",
+    "un_roditelja" : "nebojsa3735",
+    "prezime" : "Jankovic",
+    "username" : "boki123",
+    "lozinka" : "Bojan@123",
+    "email" : "bojan@gmail.com",
+    "slika" : "noImage.png",
+    "mesto" : "Beograd",
+    "drzava" : "Srbija",
+    "accepted" : 0,
+    "skola" : "Elektrotehnička škola Nikola Tesla",
+    "odeljenje" : "I-8",
+    "__v" : 0
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("60eadc266171d1201c351fe9"),
+    "spisak_ocena" : [],
+    "predmeti" : [],
+    "tip" : "roditelj",
+    "ime" : "Nebojsa",
+    "un_deteta" : "boki123",
+    "prezime" : "Jankovic",
+    "username" : "nebojsa3735",
+    "lozinka" : "Nebojsa@12345",
+    "email" : "nebojsa3735@gmail.com",
+    "slika" : "noImage.png",
+    "mesto" : "Beograd",
+    "drzava" : "Srbija",
+    "accepted" : 0,
+    "skola" : "Elektrotehnička škola Nikola Tesla",
+    "odeljenje" : "I-8",
+    "__v" : 0
+}

@@ -1,0 +1,2708 @@
+/* 1 */
+{
+    "_id" : ObjectId("60e42b50fd8bc52e23410753"),
+    "ime" : "Prva beogradska gimnazija",
+    "mesto" : "Beograd",
+    "odeljenja" : [ 
+        {
+            "naziv" : "I-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-16",
+            "predmeti" : [],
+            "raspored" : []
+        }
+    ]
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("60e43ce5fd8bc52e23410cee"),
+    "ime" : "Druga beogradska gimnazija",
+    "mesto" : "Beograd",
+    "odeljenja" : [ 
+        {
+            "naziv" : "I-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-16",
+            "predmeti" : [],
+            "raspored" : []
+        }
+    ]
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("60e43ce5fd8bc52e23410cf1"),
+    "ime" : "Treća beogradska gimnazija",
+    "mesto" : "Beograd",
+    "odeljenja" : [ 
+        {
+            "naziv" : "I-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-16",
+            "predmeti" : [],
+            "raspored" : []
+        }
+    ]
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("60e43ce5fd8bc52e23410cf4"),
+    "ime" : "Četvrta beogradska gimnazija",
+    "mesto" : "Beograd",
+    "odeljenja" : [ 
+        {
+            "naziv" : "I-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-16",
+            "predmeti" : [],
+            "raspored" : []
+        }
+    ]
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("60e43ce5fd8bc52e23410cf7"),
+    "ime" : "Peta beogradska gimnazija",
+    "mesto" : "Beograd",
+    "odeljenja" : [ 
+        {
+            "naziv" : "I-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-16",
+            "predmeti" : [],
+            "raspored" : []
+        }
+    ]
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("60e43ce5fd8bc52e23410cfa"),
+    "ime" : "Šesta beogradska gimnazija",
+    "mesto" : "Beograd",
+    "odeljenja" : [ 
+        {
+            "naziv" : "I-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-16",
+            "predmeti" : [],
+            "raspored" : []
+        }
+    ]
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("60e43ce5fd8bc52e23410cfd"),
+    "ime" : "Elektrotehnička škola Nikola Tesla",
+    "mesto" : "Beograd",
+    "odeljenja" : [ 
+        {
+            "naziv" : "I-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-8",
+            "roditeljski" : {
+                "datum" : "2021-07-22",
+                "vreme" : "19:35",
+                "mesto" : "76"
+            },
+            "predmeti" : [ 
+                "Matematika", 
+                "Srpski jezik i knjizevnost", 
+                "Fizicko vaspitanje", 
+                "Engleski jezik", 
+                "Prakticna nastava", 
+                "Racunarska grafika i multimedija", 
+                "Istorija", 
+                "Hemija", 
+                "Geografija", 
+                "Fizika", 
+                "Osnove elektrotehnike", 
+                "Informatika i racunarstvo", 
+                "Programiranje", 
+                "Vladanje"
+            ],
+            "raspored" : [ 
+                {
+                    "dan" : "Ponedeljak",
+                    "casovi" : [ 
+                        "Matematika", 
+                        "Engleski jezik", 
+                        "Srpski jezik i knjizevnost", 
+                        "Programiranje", 
+                        "Fizicko vaspitanje", 
+                        "Istorija"
+                    ]
+                }, 
+                {
+                    "dan" : "Utorak",
+                    "casovi" : [ 
+                        "Geografija", 
+                        "Osnove elektrotehnike", 
+                        "Matematika", 
+                        "Srpski jezik i knjizevnost", 
+                        "Informatika i racunarstvo", 
+                        "Informatika i racunarstvo"
+                    ]
+                }, 
+                {
+                    "dan" : "Sreda",
+                    "casovi" : [ 
+                        "", 
+                        "Fizika", 
+                        "Matematika", 
+                        "Hemija", 
+                        "Racunarska grafika i multimedija", 
+                        "Racunarska grafika i multimedija", 
+                        "Programiranje"
+                    ]
+                }, 
+                {
+                    "dan" : "Cetvrtak",
+                    "casovi" : [ 
+                        "Osnove elektrotehnike", 
+                        "Engleski jezik", 
+                        "Srpski jezik i knjizevnost", 
+                        "Programiranje", 
+                        "Informatika i racunarstvo", 
+                        "Matematika"
+                    ]
+                }, 
+                {
+                    "dan" : "Petak",
+                    "casovi" : [ 
+                        "Fizicko vaspitanje", 
+                        "Programiranje", 
+                        "Prakticna nastava", 
+                        "Prakticna nastava", 
+                        "Matematika", 
+                        "Cas odeljenske zajednice"
+                    ]
+                }
+            ]
+        }, 
+        {
+            "naziv" : "I-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-16",
+            "predmeti" : [],
+            "raspored" : []
+        }
+    ]
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("60e43d34fd8bc52e23410d24"),
+    "ime" : "Matematička gimnazija",
+    "mesto" : "Beograd",
+    "odeljenja" : [ 
+        {
+            "naziv" : "I-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "I-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "II-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "III-16",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-1",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-2",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-3",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-4",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-5",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-6",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-7",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-8",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-9",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-10",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-11",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-12",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-13",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-14",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-15",
+            "predmeti" : [],
+            "raspored" : []
+        }, 
+        {
+            "naziv" : "IV-16",
+            "predmeti" : [],
+            "raspored" : []
+        }
+    ]
+}
